@@ -1,6 +1,7 @@
 class Song 
   
-  attr_accessor :name, :artist, :genre
+  attr_accessor 
+  attr_reader :name, :artist, :genre
   
   def new (name, artist, genre)
     @name= name
