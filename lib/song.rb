@@ -1,10 +1,8 @@
 class Song 
   
-  attr_accessor @new
+  attr_accessor 
   attr_reader
   
-  def new (name, artist, genre)
   
-  end
 
 end
